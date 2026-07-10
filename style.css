@@ -1,0 +1,11 @@
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #F8FAFC;
+}
+/* টেলিগ্রাম স্ক্রোলে যাতে এক্সট্রা বাউন্স না করে */
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
